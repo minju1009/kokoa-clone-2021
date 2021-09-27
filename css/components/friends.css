@@ -17,7 +17,7 @@
 
 .friends-screen__channel {
   margin-top: 20px;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: var(--border);
   padding-top: 15px;
 }
 
@@ -26,8 +26,4 @@
   display: flex;
   justify-content: space-between;
   color: rgba(0, 0, 0, 0.5);
-}
-
-.user-component__column-number {
-  margin-right: 1px;
 }
