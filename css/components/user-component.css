@@ -55,3 +55,25 @@
   display: block;
   margin-bottom: 10px;
 }
+
+.user-component__with-exclamationmark {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-component__exclamationmark {
+  display: block;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: tomato;
+  border: 2px solid tomato;
+  margin-left: 7px;
+  margin-top: 10px;
+  font-size: 5px;
+  font-weight: bold;
+}
